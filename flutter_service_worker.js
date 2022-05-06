@@ -38,9 +38,9 @@ const RESOURCES = {
 "images/image2.png": "eebdf43146219703686ddb778cf95367",
 "images/me.png": "91bdb0f8b71270b9eb85e211e7e4f4ab",
 "images/money.jpg": "86448c4083aac54df1d1becd708967d7",
-"index.html": "bdb4e2b5835312f130a6cb245d78c4b0",
-"/": "bdb4e2b5835312f130a6cb245d78c4b0",
-"main.dart.js": "7d80cee42bb1e07104c05b86c3bd7e9e",
+"index.html": "ad0ece8d857c7cde587df2e4773d387b",
+"/": "ad0ece8d857c7cde587df2e4773d387b",
+"main.dart.js": "b490858c3f327654c98dd57c019caf87",
 "manifest.json": "40fbbbd0dfbeeb158f56442a3e1f3f61",
 "version.json": "86ac3e28fe23a10c9754681fb980b0fe"
 };
