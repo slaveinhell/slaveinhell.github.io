@@ -3,44 +3,28 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c403d5ec7e38a3e637a1372463525c89",
+  "assets/AssetManifest.json": "801125fca546f506babac9af4ec061ba",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/NOTICES": "54f369ab38ccf182c74ac4b65c673a7c",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "d2ad5b3ff56083465a8681cfb995d6e6",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
-"assets/web/images/1.png": "58ea8cba735bb8741f16b5da223ceaa1",
-"assets/web/images/2.png": "37338721c7e5c29aa418594966ea592b",
-"assets/web/images/a.jpg": "68bb0f37ed715de53bb87c19e8ddc144",
-"assets/web/images/hell.png": "f1ed9aa1a3e50d4324d211c6b82e1be9",
-"assets/web/images/hell2.png": "70982c180863330a43b250ff34504683",
-"assets/web/images/image1.webp": "9beb5c07ec974923d34197c791e02430",
-"assets/web/images/image2.png": "eebdf43146219703686ddb778cf95367",
-"assets/web/images/me.png": "91bdb0f8b71270b9eb85e211e7e4f4ab",
-"assets/web/images/money.jpg": "86448c4083aac54df1d1becd708967d7",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "4e20cb87b0d43808c49449ffd69b1a74",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "1f7cb220b3f5309130bd6d9ad87e0fc0",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "26f5af2d93473531f82ef5060f9c6d45",
+"assets/shaders/ink_sparkle.frag": "e430f2f229b1a9126b9b96896408ca3d",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"images/1.png": "58ea8cba735bb8741f16b5da223ceaa1",
-"images/2.png": "37338721c7e5c29aa418594966ea592b",
-"images/a.jpg": "68bb0f37ed715de53bb87c19e8ddc144",
-"images/hell.png": "f1ed9aa1a3e50d4324d211c6b82e1be9",
-"images/hell2.png": "70982c180863330a43b250ff34504683",
-"images/image1.webp": "9beb5c07ec974923d34197c791e02430",
-"images/image2.png": "eebdf43146219703686ddb778cf95367",
-"images/me.png": "91bdb0f8b71270b9eb85e211e7e4f4ab",
-"images/money.jpg": "86448c4083aac54df1d1becd708967d7",
-"index.html": "b5f71837d00485708055b3286780e7c9",
-"/": "b5f71837d00485708055b3286780e7c9",
-"main.dart.js": "cc29eb85ffe1d06fc9de2ddaba68c9ce",
+"index.html": "f27372209cf887d855a75bfc0363baea",
+"/": "f27372209cf887d855a75bfc0363baea",
+"main.dart.js": "35a8fc0d17c19f177992f6eb6251e1e8",
 "manifest.json": "40fbbbd0dfbeeb158f56442a3e1f3f61",
 "version.json": "86ac3e28fe23a10c9754681fb980b0fe"
 };
@@ -48,10 +32,8 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -150,9 +132,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
